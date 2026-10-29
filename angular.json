@@ -6,7 +6,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "proloco-invetario": {
+    "proloco-inventario": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -83,10 +83,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "proloco-invetario:build:production"
+              "buildTarget": "proloco-inventario:build:production"
             },
             "development": {
-              "buildTarget": "proloco-invetario:build:development"
+              "buildTarget": "proloco-inventario:build:development"
             }
           },
           "defaultConfiguration": "development"
